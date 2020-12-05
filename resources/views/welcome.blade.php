@@ -21,6 +21,7 @@
     <a class="nav-link" href="#">HISTORY</a>
   </li>
 </ul>
+<img src="Sepatu.jpg" class="img-fluid" alt="Responsive image">
 </body>
 </html>
 
