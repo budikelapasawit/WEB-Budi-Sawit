@@ -15,7 +15,7 @@
     <a class="nav-link" href="Product.php">PRODUCT</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">ORDER</a>
+    <a class="nav-link" href="Order.php">ORDER</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="#">HISTORY</a>
