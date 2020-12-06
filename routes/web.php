@@ -27,3 +27,21 @@ Route::get('/product',function(){
 Route::get('/input',function(){
     return view('inputProduct');
 });
+
+Route::get('/update',function(){
+    return view('updateProduct');
+});
+
+Route::get('/order',function(){
+    return view('order');
+});
+
+Route::get('/orderproduct',function(){
+    return view('orderProduct');
+});
+
+
+
+
+
+
