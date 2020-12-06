@@ -11,10 +11,10 @@
     <a class="nav-link active" href="welcome.blade.php">HOME</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="Product.php">PRODUCT</a>
+    <a class="nav-link" href="product.blade.php">PRODUCT</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="Order.php">ORsDER</a>
+    <a class="nav-link" href="orderProduct.blade.php">ORDERS</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="#">HISTORY</a>
@@ -26,7 +26,7 @@
                <h2 class="pt-4"><b>List Product</b></h2>
             </div>
             <div class="col-md-6 pr-auto mt-4">
-               <a href="Input_Product.php" class="btn btn-info" value="add">Add</a>
+               <a href="inputProduct.blade.php" class="btn btn-info" value="add">Add</a>
             </div>
          </div>
         <hr class="hr1">

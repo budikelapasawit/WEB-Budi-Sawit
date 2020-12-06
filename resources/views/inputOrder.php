@@ -29,6 +29,21 @@
     <p class="card-text">Powerful twin-turbo six-cylinder horizontally opposed engine in the rear</p>
     <p class="card-text">High-precision Porsche Doppelkupplung (PDK) transmission</p>
     <p class="card-text">Systems for increasing the driving dynamic</p>
-    <a href="inputOrder.php" class="btn btn-primary">Order Now</a>
+  </div>
+</div>
+
+<br></br>
+
+<div class="card" style="width: 25rem;">
+  <div class="card-body">
+    <h5 class="card-title" align="center">Buyer Information</h5>
+    <label for="name">Name</label>
+    <input type="name" class="form-control" id="name">
+    <label for="Cont">Contact</label>
+    <input type="Cont" class="form-control" id="Cont">
+    <label for="Qua">Quantity</label>
+    <input type="Qua" class="form-control" id="Qua">
+    <br></br>
+    <a href="#" class="btn btn-primary">Submit</a>
   </div>
 </div>
