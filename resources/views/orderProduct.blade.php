@@ -15,7 +15,7 @@
     <a class="nav-link" href="product.blade.php">PRODUCT</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="Order.php">ORDER</a>
+    <a class="nav-link" href="orderProduct.blade.php">ORDER</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="#">HISTORY</a>
