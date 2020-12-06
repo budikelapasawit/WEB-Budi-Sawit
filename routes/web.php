@@ -23,3 +23,7 @@ Route::get('/home/{name}',[HomeController::class,'index'])->name('home.index');
 Route::get('/product',function(){
     return view('product');
 });
+
+Route::get('/input',function(){
+    return view('inputProduct');
+});
