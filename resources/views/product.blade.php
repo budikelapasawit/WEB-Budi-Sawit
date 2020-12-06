@@ -30,7 +30,6 @@
             </div>
          </div>
         <hr class="hr1">
-
         <div class="row mt-3">
             <table class="table m-3">
                 <thead class="table-active">
@@ -40,4 +39,10 @@
                         <th>Price</th>
                         <th>Action</th>
                     </tr>
+                    @foreach ($products as $product)  
+                    <tr>
+                      <td>{{$product->id}}</td>
+                      <td>{{$product->name}}</td>
+                      <td>{{$product->price}}</td>
+                    @endforeach   
                 </thead>

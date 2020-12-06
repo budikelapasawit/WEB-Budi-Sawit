@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -39,6 +40,8 @@ Route::get('/order',function(){
 Route::get('/orderproduct',function(){
     return view('orderProduct');
 });
+
+Route::get('/product',[ProductController::class,'getAllProduct'])->name('product.getallproduct');
 
 
 
